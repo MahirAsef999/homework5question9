@@ -54,7 +54,7 @@
         $(document).ready(function(){
             $('#fetch-products').click(function(){
                 $.get('homework-5-question-9.php', function(data) {
-                    $('#products-container').empty(); // Clear previous results
+                    $('#products-container').empty(); 
                     $.each(data, function(index, product) {
                         $('#products-container').append(`
                             <div class='product'>
